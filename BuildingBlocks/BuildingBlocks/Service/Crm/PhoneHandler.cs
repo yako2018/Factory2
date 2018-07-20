@@ -1,4 +1,5 @@
-﻿using BuildingBlocks.Service.Interface;
+﻿using BuildingBlocks.Service.Crm;
+using BuildingBlocks.Models.Interface;
 using Microsoft.Xrm.Sdk;
 using Microsoft.Xrm.Sdk.Query;
 using System;
@@ -51,17 +52,35 @@ namespace BuildingBlocks.Service.Crm
 
         public string CreateOrUpdateData(string id)
         {
-            Guid toGuid = Guid.Parse(id);
-            Entity PhoneEntity = _clientService.Retrieve("phoneentityname", toGuid, new ColumnSet(true));
-            //some field (not always all)
-            //Entity ProductOrderItemEntity2 = _clientService.Retrieve("entityname", toGuid, new ColumnSet(new string[] { "name", "number" }));
-            //todo
             ICrmPhone phone = new Phone();
             phone.name = "";
             phone.number = "";
             phone.phoneid = id;
 
-            _clientService.Create(PhoneEntity);
+            Guid toGuid = new Guid();
+            bool isGuid = Guid.TryParse(id, out toGuid);
+
+            if (true || phone.phoneid == id)
+            {
+                //Create
+                Entity entity = new Entity("phone_entityname");
+                entity["clf_contact"] = new EntityReference("contact", new Guid("lookupGuid")); // Suppose clf_contact is lookup field
+                entity["name"] = phone.name;
+                entity["number"] = phone.number;
+                _clientService.Create(entity);
+            }
+            else
+            {
+                //Update
+                Entity entity = _clientService.Retrieve("phone_entityname", toGuid, new ColumnSet());
+                entity["clf_contact"] = new EntityReference("contact", new Guid("lookupGuid")); // Suppose clf_contact is lookup field
+                entity["name"] = phone.name;
+                entity["number"] = phone.number;
+                entity["phoneid"] = phone.phoneid;//Primary Key
+                _clientService.Update(entity);
+            }
+            
+
             return "success";
         }
 
