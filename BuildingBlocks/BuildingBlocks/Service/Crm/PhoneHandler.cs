@@ -19,6 +19,16 @@ namespace BuildingBlocks.Service.Crm
             _clientService = crmConn.Connection();
         }
 
+        public Phone TestPhone()
+        {
+            ICrmPhone phone = new Phone();
+            phone.clf_contact = "20180720";
+            phone.name = "cloud";
+            phone.number = "xxxx-xxxxxx";
+            phone.phoneid = new Guid().ToString();
+            return (Phone)phone;
+        }
+
         public void Exec()
         {
             DoLogic();
