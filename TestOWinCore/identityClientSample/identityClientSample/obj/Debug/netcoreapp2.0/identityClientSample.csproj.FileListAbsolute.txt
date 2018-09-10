@@ -1,0 +1,11 @@
+D:\Gold______Factory\Practice\TestOWinCore\identityClientSample\identityClientSample\bin\Debug\netcoreapp2.0\identityClientSample.deps.json
+D:\Gold______Factory\Practice\TestOWinCore\identityClientSample\identityClientSample\bin\Debug\netcoreapp2.0\identityClientSample.runtimeconfig.json
+D:\Gold______Factory\Practice\TestOWinCore\identityClientSample\identityClientSample\bin\Debug\netcoreapp2.0\identityClientSample.runtimeconfig.dev.json
+D:\Gold______Factory\Practice\TestOWinCore\identityClientSample\identityClientSample\bin\Debug\netcoreapp2.0\identityClientSample.dll
+D:\Gold______Factory\Practice\TestOWinCore\identityClientSample\identityClientSample\bin\Debug\netcoreapp2.0\identityClientSample.pdb
+D:\Gold______Factory\Practice\TestOWinCore\identityClientSample\identityClientSample\obj\Debug\netcoreapp2.0\identityClientSample.csproj.CoreCompileInputs.cache
+D:\Gold______Factory\Practice\TestOWinCore\identityClientSample\identityClientSample\obj\Debug\netcoreapp2.0\identityClientSample.AssemblyInfoInputs.cache
+D:\Gold______Factory\Practice\TestOWinCore\identityClientSample\identityClientSample\obj\Debug\netcoreapp2.0\identityClientSample.AssemblyInfo.cs
+D:\Gold______Factory\Practice\TestOWinCore\identityClientSample\identityClientSample\obj\Debug\netcoreapp2.0\identityClientSample.dll
+D:\Gold______Factory\Practice\TestOWinCore\identityClientSample\identityClientSample\obj\Debug\netcoreapp2.0\identityClientSample.pdb
+D:\Gold______Factory\Practice\TestOWinCore\identityClientSample\identityClientSample\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs

@@ -1,0 +1,12 @@
+D:\Gold______Factory\Practice\TestOWinCore\identityServerSample\identityServerSample\bin\Debug\netcoreapp2.0\identityServerSample.deps.json
+D:\Gold______Factory\Practice\TestOWinCore\identityServerSample\identityServerSample\bin\Debug\netcoreapp2.0\identityServerSample.runtimeconfig.json
+D:\Gold______Factory\Practice\TestOWinCore\identityServerSample\identityServerSample\bin\Debug\netcoreapp2.0\identityServerSample.runtimeconfig.dev.json
+D:\Gold______Factory\Practice\TestOWinCore\identityServerSample\identityServerSample\bin\Debug\netcoreapp2.0\identityServerSample.dll
+D:\Gold______Factory\Practice\TestOWinCore\identityServerSample\identityServerSample\bin\Debug\netcoreapp2.0\identityServerSample.pdb
+D:\Gold______Factory\Practice\TestOWinCore\identityServerSample\identityServerSample\obj\Debug\netcoreapp2.0\identityServerSample.csproj.CoreCompileInputs.cache
+D:\Gold______Factory\Practice\TestOWinCore\identityServerSample\identityServerSample\obj\Debug\netcoreapp2.0\identityServerSample.AssemblyInfoInputs.cache
+D:\Gold______Factory\Practice\TestOWinCore\identityServerSample\identityServerSample\obj\Debug\netcoreapp2.0\identityServerSample.AssemblyInfo.cs
+D:\Gold______Factory\Practice\TestOWinCore\identityServerSample\identityServerSample\obj\Debug\netcoreapp2.0\identityServerSample.dll
+D:\Gold______Factory\Practice\TestOWinCore\identityServerSample\identityServerSample\obj\Debug\netcoreapp2.0\identityServerSample.pdb
+D:\Gold______Factory\Practice\TestOWinCore\identityServerSample\identityServerSample\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+D:\Gold______Factory\Practice\TestOWinCore\identityServerSample\identityServerSample\obj\Debug\netcoreapp2.0\identityServerSample.csprojAssemblyReference.cache
